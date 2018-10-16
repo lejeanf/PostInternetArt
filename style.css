@@ -1,34 +1,54 @@
+*{
+  font-family: courier new;
+  font-size: 1em;
+  color: white;
+}
+
 body {
-    background-color: black;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
-    color: navy;
-    margin-left: 20px;
-    font-size: 2em;
-    font-weight: bold;
+  color: #ffcd4f;
+  margin-left: 20px;
+  font-size: 2em;
+  font-weight: bold;
 }
 h2 {
-    color: navy;
-    margin-left: 20px;
-    font-size: 1em;
-    font-weight: bold;
+  color: #56efea;
+  margin-left: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  padding: 1em 2em;
+}
+h3 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
-text {
-    font-family: courier new;
-    font-size: 1em;
-    font-color: #e0e0e0;
+p{
+  padding:  0 0 2em 3em;
 }
 
 .textContainer {
-  width: 70%;
+  width: 50%;
   min-height: 30%;
   height: auto;
-  background-color: #333333;
-  margin, padding: 0 auto;
+  /*background-color: #1c1c1c;*/
+  margin: 0;
+  padding: 0;
+}
+.bigboy {
+}
+.quiz{
+  width: 20%;
+  float:  left;
+  background-color:  gray;
+  margin: 1em;
 }
