@@ -44,11 +44,18 @@ p{
   margin: 0;
   padding: 0;
 }
+.quizContainer {
+  width: 100%;
+  min-height: 30%;
+  height: auto;
+  /*background-color: #1c1c1c;*/
+  margin: 0;
+  padding: 0;
+}
 .bigboy {
 }
 .quiz{
-  width: 20%;
-  float:  left;
-  background-color:  gray;
   margin: 1em;
+  width: 30%;
+  display: inline-block;
 }
