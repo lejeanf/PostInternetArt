@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: black;
+  background-image: url(https://media.giphy.com/media/nmke0CSrymd9e/giphy.gif);
+  background-repeat: repeat;
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -33,14 +34,15 @@ h3 {
 }
 
 p{
-  padding:  0 0 2em 3em;
+  padding:  0 1em 2em 3em;
+  text-align: justify;
 }
 
 .textContainer {
   width: 50%;
   min-height: 30%;
   height: auto;
-  /*background-color: #1c1c1c;*/
+  background-color: black;
   margin: 0;
   padding: 0;
 }
@@ -48,7 +50,7 @@ p{
   width: 100%;
   min-height: 30%;
   height: auto;
-  /*background-color: #1c1c1c;*/
+  background-color: black;
   margin: 0;
   padding: 0;
 }
@@ -63,5 +65,8 @@ p{
   display: inline-block;
 }
 .coloredTxt {
-  color: #84ff68;
+  color: yellow;
+}
+.quote{
+  color: #fff8c1;
 }
